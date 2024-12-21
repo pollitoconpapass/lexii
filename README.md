@@ -5,7 +5,8 @@ Scraping bilingual dictionaries using LLMs
 ## 🧠 Flow Process 
 ![alt text](./public/flow_process.png)
 
-Check the json inside `jsons` folder as an example of the final result.
+>[!NOTE]
+> Check the json inside `jsons` folder as an example of the final result.
 
 ## 🔧 Configuration
 In my case I use Azure OpenAI's GPT4-o model, so I need a .env file where I place the credentials.
@@ -22,7 +23,7 @@ pip install -r requirements.txt
 ```
 
 >[!IMPORTANT]
-> I really recommend to use GPT4-o. I tried the same process with LLAMA-3.2 and 3.3 and the results weren't
+> I really recommend to use GPT4-o. I tried the same process with LLAMA-3.2 and 3.3 and the results weren't good
 
 ## 🧑‍💻 Running
 1. Upload your PDF dictionary file into a folder inside the project root
