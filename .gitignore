@@ -1,0 +1,9 @@
+# FOLDERS
+/PDFs
+**/__pycache__
+/examples
+
+# FILES
+.env
+.DS_Store
+create_dataset.py

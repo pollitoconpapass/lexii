@@ -1,0 +1,6 @@
+datasets==3.1.0
+gradio==5.9.1
+langchain_text_splitters==0.3.4
+openai==1.58.1
+PyPDF2==3.0.1
+python-dotenv==1.0.1
